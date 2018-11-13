@@ -1,9 +1,10 @@
 {
-  "name": "demo",
-  "version": "1.0.0",
+  "name": "rty-vue-components",
+  "version": "0.0.1",
   "description": "A Vue.js project",
   "author": "573850993@qq.com",
-  "private": true,
+  "private": false,
+  "main": "dist/rty-vue-components.min.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
