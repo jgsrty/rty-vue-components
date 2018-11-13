@@ -1,15 +1,17 @@
 <template>
-  <div>
-    <div>hello test</div>
+  <div class="hello">
+    <div class="text">hello test</div>
   </div>
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {};
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+.hello {
+  .text {
+    color: red;
+  }
+}
 </style>
