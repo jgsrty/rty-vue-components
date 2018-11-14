@@ -1,5 +1,5 @@
 <template>
-  <button class="default" :class="[type?type:'',size?size:'']">{{textWord}}</button>
+  <button @click="clickBtn" class="default" :class="[type?type:'',size?size:'']">{{textWord}}</button>
 </template>
 
 <script>
@@ -35,7 +35,12 @@ export default {
         return this.text;
       }
     }
-  }
+  },
+  methods: {
+    clickBtn(event) {
+      this.$emit('click', event);
+    }
+  },
 };
 </script>
 
