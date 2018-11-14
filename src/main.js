@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import { rtyButton, rtyProgress } from "@/components";
+Vue.component('rtyButton',rtyButton)
+Vue.component('rtyProgress',rtyProgress)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
