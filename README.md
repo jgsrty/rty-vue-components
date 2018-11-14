@@ -1,21 +1,35 @@
-# demo
+# Introduce
 
-> A Vue.js project
+> personal vue components
 
-## Build Setup
+## 安装
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+```
+npm install rty-vue-components -S
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 引入
+
+#### 全局引入
+
+``` js
+//main.js
+import 'rty-vue-components/dist/rty-vue-components.min.css'
+import { rtyButton } from 'rty-vue-components'
+Vue.component('rtyButton',rtyButton)
+```
+
+#### 单个引入
+
+``` js
+import { rtyButton } from 'rty-vue-components'
+export default {
+  components:{ rtyButton }
+};
+```
+
+### 使用
+
+``` html
+<rty-button></rty-button>
+```
