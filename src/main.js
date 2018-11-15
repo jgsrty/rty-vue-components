@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// rty-vue-components
 import { rtyButton, rtyProgress } from "@/components";
 Vue.component('rtyButton',rtyButton)
 Vue.component('rtyProgress',rtyProgress)
