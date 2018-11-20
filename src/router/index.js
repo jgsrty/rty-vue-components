@@ -3,6 +3,7 @@ import Router from "vue-router";
 import indexPage from "@/example/index";
 import rtyProgress from "@/example/rtyProgress";
 import rtyButton from "@/example/rtyButton";
+import rtyDialog from "@/example/rtyDialog";
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/rtyButton',
       name: 'rtyButton',
       component: rtyButton
+    },
+    {
+      path: '/rtyDialog',
+      name: 'rtyDialog',
+      component: rtyDialog
     }
   ]
 });
