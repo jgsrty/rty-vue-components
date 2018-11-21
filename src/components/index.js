@@ -1,3 +1,5 @@
+import '../common.css'
+
 import testHello from './helloTest/index.vue'
 import rtyProgress from './rtyProgress/index.vue'
 import rtyButton from './rtyButton/index.vue'
