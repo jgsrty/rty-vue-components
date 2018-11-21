@@ -46,3 +46,9 @@ export default {
 | header | dialog传入的标题，也可通过slot传入 | String | - | - |
 | width | dialog宽度，百分比/px | String | - | 30% |
 | clickEmpty | 是否可通过点击空白处关闭dialog | Boolean | - | true |
+
+#### Slot
+| name | 说明 |
+|-|-|
+| title | dialog标题内容，如不传不显示标题内容，标题显示header属性内容 |
+| footer | dialog底部footer内容，如不传则不显示footer内容 |

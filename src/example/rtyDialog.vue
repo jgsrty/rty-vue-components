@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div style="margin-bottom:20px">
-      <rty-button @click="firstDialog = true" :text="'点击打开Dialog'"></rty-button>
+    <div style="margin:20px 0">
+      <rty-button @click="firstDialog = true" :text="'点击打开Dialog'" :type="'primary'"></rty-button>
       <rty-dialog :visible.sync="firstDialog" :header="'标题'" :width="'250px'">
         <div>dialog内容</div>
         <div slot="footer">
@@ -11,7 +11,7 @@
       </rty-dialog>
     </div>
     <div>
-      <rty-button @click="secondDialog = true" :text="'点击打开自定义Dialog'"></rty-button>
+      <rty-button @click="secondDialog = true" :text="'点击打开自定义Dialog'" :type="'primary'"></rty-button>
       <rty-dialog :visible.sync="secondDialog">
         <div>
           <rty-progress :percent='55' :innerColor="'#d4333c'"></rty-progress>
