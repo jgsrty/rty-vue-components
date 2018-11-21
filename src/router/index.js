@@ -5,6 +5,7 @@ import rtyProgress from "@/example/rtyProgress";
 import rtyButton from "@/example/rtyButton";
 import rtyDialog from "@/example/rtyDialog";
 import rtyLoading from "@/example/rtyLoading";
+import rtyPop from "@/example/rtyPop";
 
 Vue.use(Router);
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/rtyLoading',
       name: 'rtyLoading',
       component: rtyLoading
+    },
+    {
+      path: '/rtyPop',
+      name: 'rtyPop',
+      component: rtyPop
     }
   ]
 });

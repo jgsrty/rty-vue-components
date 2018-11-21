@@ -5,11 +5,13 @@ import rtyProgress from './rtyProgress/index.vue'
 import rtyButton from './rtyButton/index.vue'
 import rtyDialog from './rtyDialog/index.vue'
 import rtyLoading from './rtyLoading/index.vue'
+import rtyPop from './rtyPop/index.vue'
 
 export {
   testHello,
   rtyProgress,
   rtyButton,
   rtyDialog,
-  rtyLoading
+  rtyLoading,
+  rtyPop
 }
