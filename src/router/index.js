@@ -4,6 +4,7 @@ import indexPage from "@/example/index";
 import rtyProgress from "@/example/rtyProgress";
 import rtyButton from "@/example/rtyButton";
 import rtyDialog from "@/example/rtyDialog";
+import rtyLoading from "@/example/rtyLoading";
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/rtyDialog',
       name: 'rtyDialog',
       component: rtyDialog
+    },
+    {
+      path: '/rtyLoading',
+      name: 'rtyLoading',
+      component: rtyLoading
     }
   ]
 });

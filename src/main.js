@@ -4,10 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 // rty-vue-components
-import { rtyButton, rtyProgress, rtyDialog } from "@/components";
+import { rtyButton, rtyProgress, rtyDialog, rtyLoading } from "@/components";
 Vue.component('rtyButton',rtyButton)
 Vue.component('rtyProgress',rtyProgress)
 Vue.component('rtyDialog',rtyDialog)
+Vue.component('rtyLoading',rtyLoading)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
