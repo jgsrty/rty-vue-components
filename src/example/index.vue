@@ -5,6 +5,7 @@
     <router-link :to="'rtyDialog'">rtyDialog</router-link>
     <router-link :to="'rtyLoading'">rtyLoading</router-link>
     <router-link :to="'rtyPop'">rtyPop</router-link>
+    <router-link :to="'rtyPagination'">rtyPagination</router-link>
   </div>
 </template>
 
@@ -15,5 +16,7 @@
 </script>
 
 <style scoped>
-
+a{
+  display:block
+}
 </style>

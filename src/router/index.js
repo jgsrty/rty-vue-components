@@ -6,6 +6,7 @@ import rtyButton from "@/example/rtyButton";
 import rtyDialog from "@/example/rtyDialog";
 import rtyLoading from "@/example/rtyLoading";
 import rtyPop from "@/example/rtyPop";
+import rtyPagination from "@/example/rtyPagination";
 
 Vue.use(Router);
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/rtyPop',
       name: 'rtyPop',
       component: rtyPop
+    },
+    {
+      path: '/rtyPagination',
+      name: 'rtyPagination',
+      component: rtyPagination
     }
   ]
 });
