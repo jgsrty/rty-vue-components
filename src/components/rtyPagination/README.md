@@ -16,15 +16,12 @@
 ```
 ``` js
 <script>
-import rtyPagination from "../src/rtyPagination";
 export default {
-  components: {
-    rtyPagination
-  },
   data() {
     return {
-      showPop: false
-    };
+      currPage1: 1,
+      currPage2: 99
+    }
   },
   methods: {
     changePage(val) {
