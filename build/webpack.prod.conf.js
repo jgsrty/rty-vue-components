@@ -25,8 +25,8 @@ const webpackConfig = merge(baseWebpackConfig, {
   output: {
     path: config.build.assetsRoot,
     publicPath: config.build.assetsPublicPath,
-    filename: 'rty-vue-components.min.js',
-    library: 'rty-vue-components',
+    filename: 'rty-vue-ui.min.js',
+    library: 'rty-vue-ui',
     libraryTarget: 'umd'
   },
   plugins: [
@@ -42,7 +42,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       sourceMap: true
     }),
     new ExtractTextPlugin({
-      filename: 'rty-vue-components.min.css',
+      filename: 'rty-vue-ui.min.css',
     }),
     new OptimizeCSSPlugin()
   ]

@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// rty-vue-components
+// rty-vue-ui
 import rtyComponets from "@/components";
 Vue.use(rtyComponets)
 
