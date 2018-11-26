@@ -21,6 +21,7 @@
 
 <script>
 export default {
+  name:'rtyDialog',
   props: {
     visible: {
       type: Boolean,

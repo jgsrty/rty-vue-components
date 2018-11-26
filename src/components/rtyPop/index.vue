@@ -8,27 +8,22 @@
 
 <script>
 export default {
-  props: {
-    visible: {
-      type: Boolean,
-      default: false
-    },
-    text: {
-      type: String,
-      default: "气泡提示"
-    },
-    fade: {
-      type: Number,
-      default: 1500
-    }
+  name: "rtyPop",
+  data() {
+    return {
+      text: "气泡提示",
+      fade: 1500,
+      visible: true
+    };
   },
-  watch: {
-    visible(val) {
-      if (val) {
-        setTimeout(() => {
-          this.$emit("update:visible", false);
-        },this.fade);
-      }
+  mounted() {
+    this.close();
+  },
+  methods: {
+    close() {
+      setTimeout(() => {
+        this.visible = false;
+      }, this.fade);
     }
   }
 };
@@ -41,7 +36,7 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index:2018;
+  z-index: 2018;
   background: rgba(255, 255, 255, 0);
   .pop {
     color: #fff;

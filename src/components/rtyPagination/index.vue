@@ -12,6 +12,7 @@
 
 <script>
 export default {
+  name:'rtyPagination',
   data() {
     return {
       preMore: false,

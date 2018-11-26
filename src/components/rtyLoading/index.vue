@@ -5,18 +5,19 @@
 </template>
 
 <script>
-  export default {
-    props: {
-      position: {
-        type: String,
-        default: 'fixed' 
-      },
-      visible: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: "rtyLoading",
+  props: {
+    position: {
+      type: String,
+      default: "fixed"
     },
+    visible: {
+      type: Boolean,
+      default: false
+    }
   }
+};
 </script>
 
 <style scoped>
