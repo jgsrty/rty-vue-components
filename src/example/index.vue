@@ -6,6 +6,7 @@
     <router-link :to="'rtyLoading'">rtyLoading</router-link>
     <router-link :to="'rtyPop'">rtyPop</router-link>
     <router-link :to="'rtyPagination'">rtyPagination</router-link>
+    <router-link :to="'rtyRadio'">rtyRadio</router-link>
   </div>
 </template>
 

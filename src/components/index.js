@@ -7,6 +7,7 @@ import rtyDialog from './rtyDialog/index.js'
 import rtyLoading from './rtyLoading/index.js'
 import rtyPop from './rtyPop/index.js'
 import rtyPagination from './rtyPagination/index.js'
+import rtyRadio from './rtyRadio/index.js'
 
 const install = Vue => {
   Vue.component(rtyProgress.name, rtyProgress)
@@ -15,6 +16,7 @@ const install = Vue => {
   Vue.component(rtyLoading.name, rtyLoading)
   Vue.component(rtyPop.name, rtyPop)
   Vue.component(rtyPagination.name, rtyPagination)
+  Vue.component(rtyRadio.name, rtyRadio)
 
   Vue.prototype.$rtyPop = rtyPop.installPop
 }

@@ -7,6 +7,7 @@ import rtyDialog from "@/example/rtyDialog";
 import rtyLoading from "@/example/rtyLoading";
 import rtyPop from "@/example/rtyPop";
 import rtyPagination from "@/example/rtyPagination";
+import rtyRadio from "@/example/rtyRadio";
 
 Vue.use(Router);
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/rtyPagination',
       name: 'rtyPagination',
       component: rtyPagination
+    },
+    {
+      path: '/rtyRadio',
+      name: 'rtyRadio',
+      component: rtyRadio
     }
   ]
 });
