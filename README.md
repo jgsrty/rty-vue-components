@@ -1,7 +1,9 @@
 # Introduce
 > personal vue components
-## 文档&预览
-[文档&预览](https://jgsrty.github.io/components/introduction.html)
+
+## 目录
+[在线预览地址](https://jgsrty.github.io/components/introduction.html)
+* [x] 分页 [查看源码](https://github.com/jgsrty/rty-vue-components/blob/master/src/components/rtyPagination/index.vue) [组件预览](https://jgsrty.github.io/components/UI/%E5%88%86%E9%A1%B5.html)
 
 ## 安装
 
